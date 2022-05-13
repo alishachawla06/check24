@@ -1,0 +1,22 @@
+{
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "viewportHeight": 900,
+  "viewportWidth": 1600,
+  "defaultCommandTimeout": 10000,
+  "projectId": "o17qt8",
+  "video": true,
+
+  "env": {
+    "url": "https://www.check24.de/dsl/input2/",
+    "allureResultsPath": "allure-results",
+    "allure": true,
+    "allureLogCypress": true
+  }
+}
